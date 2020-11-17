@@ -19,13 +19,15 @@ SRR7591069
 "
 
 # For each SRR accession, download the data :
-for ... in ...
+for var_a in $SRR
 do
 
-fastq-dump -h
+fastq-dump $var_a
 
 # Rename sequence names, trinity need that their name ends with "/1" for R1 and "/2" for R2.
 
-awk  '{ if (NR%2 == 1 ) {gsub("\\.","_");print $1"/1"}  else  { print $0}}' 
+awk  '{ if (NR%2 == 1 ) {gsub("\\.","_");print $1"/1"}  else  { print $0}}' $var_a.fastq > $var_a.fastq.modif 
+mv $var_a.fastq.modif $var_a.fastq 
+
 
 done

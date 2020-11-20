@@ -26,10 +26,8 @@ Newname=$(basename -s .fastq $fastq_file)
 salmon quant -l SR --gcBias --validateMappings -p 16 \
 -i $data/data_trinity/transcript_index -o $data/data_salmon/$Newname -r $fastq_file
 
+done
 #$fastaq_file: output write in sfolder name as the teated fastsq
 
 
-#launch script with      nohup ./salmon.sh >& nohup.salmon &
-
-
-
+#launch script with nohup ./salmon.sh >& nohup.salmon &

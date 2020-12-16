@@ -1,6 +1,9 @@
 # TP NGS Clowwnfish
-
-##Project                                          16/11/200
+ Redmed Miguel Camacho 
+ ![finding-nemo](finding-nemo.jpg)
+ 
+ 
+## Project                                          16/11/200
 
 Species: The clownfish __Amphiriom ocellaris__ 
 Samples: 3 individuals: each one with orange and white tissue (in total 6 samples)
@@ -17,6 +20,7 @@ _Control_quality.sh_ : Create an HTML file for each file o reads with the qualit
 _MultiQC.sh_ : Create one HTML file wi
 
 _Trinity.sh_ : Assemble the reads of sequencing
+
 
 
 18/11/22

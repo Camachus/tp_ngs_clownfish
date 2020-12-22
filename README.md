@@ -1,8 +1,10 @@
 # TP NGS Clowwnfish
+
+_**Redmed Miguel Camacho**_
  
  ![finding-nemo](finding-nemo.jpg)
 
-__**Redmed Miguel Camacho**__ 
+
  
 ## Project                                          16/11/200
 

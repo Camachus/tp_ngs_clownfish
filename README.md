@@ -10,20 +10,22 @@ Here, authors asked whether the white bars of the coral reef fish _**Amphiprion 
  
  ![finding-nemactinoterygian fisheso](finding-nemo.jpg)
 
-
- 
 ## Project                                          16/11/200
 Analysis of the _A. ocellaris_ fish skin transcriptome to find gene candidates involved in the presence of iridophores in white skin.
 
 The Reference paper: Salis, P, Lorin, T, Lewis, V, et al. Developmental and comparative transcriptomic identification of iridophore contribution to white barring in clownfish. _Pigment Cell Melanoma Res._ 2019; 32: 391– 402. https://doi.org/10.1111/pcmr.12766
 
-## Dataset: 
- Samples: 3 individuals: each one with orange and white tissue (in total 6 samples)
+## Dataset 
+Samples were taken from 3 individuals: each one with orange and white tissue (in total 6 samples).
+The RNA-Senquencing method was carried out with the Illumina technology Signle-End (50 reads)
 
+## Objective
+ To determine the presence of the gen saiyan, a candidate gene involved in the presence of iridophores in white strips. 
 
-RNA-seq usising Illumina technology Signle-End (50 reads)
-Ocjective: Presence of the gen saiyan? It is a candidate gene involved in the presence of iridophores in white skin
-
+## Analyses steps
+### I. Download the reads for the study
+  
+  * **Downloading the  
 _RNA_seq_scrip.sh_ 
 
 Download the reads for the study. 

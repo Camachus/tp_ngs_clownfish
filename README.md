@@ -4,9 +4,9 @@ _**Redmed Miguel Camacho**_
 
 _Actinoterygian_ fishes present different patterns of pigmentation. These patterns of adult pigmentation are important for ecology, development and genetics. 
 
-Fishes present 8 cell types of pigmentation compared  to mammals, that have only one. Two of these pigmentation cell are iridophore that refers to a reflective tissue and leucophore for white tissue.
+_Actinoterygian_ fishes present 8 cell types of pigmentation compared  to mammals, that have only one. Two of these pigmentation cells are iridophore that refers to a reflective tissue and leucophore for white tissue.
 
-Here, authors asked whether the white bars of the coral reef fish the clown fish _**Amphiprion ocellaris**_ are composed of iridophores or with leucophores or maybe both. For that, we used the transcriptomic analysis  through this TP NGS. 
+Here, authors asked whether the white bars of the coral reef fish _**Amphiprion ocellaris**_, known as the clown fish, are composed of iridophores or with leucophores or maybe both. For that, we used the transcriptomic analysis  through this TP NGS. 
  
  ![finding-nemactinoterygian fisheso](finding-nemo.jpg)
 

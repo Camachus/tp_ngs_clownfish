@@ -1,14 +1,20 @@
 # TP NGS Clowwnfish
 
 _**Redmed Miguel Camacho**_
+
+_Actinoterygian_ fishes present different patterns of pigmentation. These patterns of adult pigmentation are important for ecology, development and genetics. 
+
+Fishes present 8 cell types of pigmentation compared  to mammals, that have only one. Two of these pigmentation cell are iridophore that refers to a reflective tissue and leucophore for white tissue.
+
+Here, authors asked whether the white bars of the coral reef fish the clown fish _**Amphiprion ocellaris**_ are composed of iridophores or with leucophores or maybe both. For that, we used the transcriptomic analysis  through this TP NGS. 
  
- ![finding-nemo](finding-nemo.jpg)
+ ![finding-nemactinoterygian fisheso](finding-nemo.jpg)
 
 
  
 ## Project                                          16/11/200
 
-Species: The clownfish __Amphiriom ocellaris__ 
+Species: The clownfish _**Amphiriom ocellaris**_ 
 Samples: 3 individuals: each one with orange and white tissue (in total 6 samples)
 Dataset: RNA-seq usising Illumina technology Signle-End (50 reads)
 Ocjective: Presence of the gen saiyan? It is a candidate gene involved in the presence of iridophores in white skin

@@ -6,17 +6,22 @@ _Actinoterygian_ fishes present different patterns of pigmentation. These patter
 
 _Actinoterygian_ fishes present 8 cell types of pigmentation compared  to mammals, that have only one. Two of these pigmentation cells are iridophore that refers to a reflective tissue and leucophore for white tissue.
 
-Here, authors asked whether the white bars of the coral reef fish _**Amphiprion ocellaris**_, known as the clown fish, are composed of iridophores or with leucophores or maybe both. For that, we used the transcriptomic analysis  through this TP NGS. 
+Here, authors asked whether the white bars of the coral reef fish _**Amphiprion ocellaris**_, known as the clown fish, are composed of iridophores or with leucophores or maybe both. To answer this question, we used the transcriptomic analysis  through this TP NGS. 
  
  ![finding-nemactinoterygian fisheso](finding-nemo.jpg)
 
 
  
 ## Project                                          16/11/200
+Analysis of the _A. ocellaris_ fish skin transcriptome to find gene candidates involved in the presence of iridophores in white skin.
 
-Species: The clownfish _**Amphiriom ocellaris**_ 
-Samples: 3 individuals: each one with orange and white tissue (in total 6 samples)
-Dataset: RNA-seq usising Illumina technology Signle-End (50 reads)
+The Reference paper: Salis, P, Lorin, T, Lewis, V, et al. Developmental and comparative transcriptomic identification of iridophore contribution to white barring in clownfish. _Pigment Cell Melanoma Res._ 2019; 32: 391– 402. https://doi.org/10.1111/pcmr.12766
+
+## Dataset: 
+ Samples: 3 individuals: each one with orange and white tissue (in total 6 samples)
+
+
+RNA-seq usising Illumina technology Signle-End (50 reads)
 Ocjective: Presence of the gen saiyan? It is a candidate gene involved in the presence of iridophores in white skin
 
 _RNA_seq_scrip.sh_ 

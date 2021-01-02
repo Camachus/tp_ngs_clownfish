@@ -57,9 +57,8 @@ After data assembly, we focused to quantify the transcript expression. For this,
 	
 * **Evaluation of homologies between transcripts of _A. ocellaris_ and their references _S. partitus_. 
 
-
-	
  
  ###  V. Differential expression analysis. 
+
 
 

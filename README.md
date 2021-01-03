@@ -32,7 +32,7 @@ The RNA-Senquencing method was carried out with the Illumina technology Signle-E
 
   * **Control of quality of the fastaq files**. We applied the FASTQC function to the reads. Script _`Control_quality.sh`_  describes the steps we did. We create an HTML file for each read with the quality of sequences. We obtained different statistics to measure and check the quality of fastaq files. One of the most important was **Per base sequence quality**. 
  
-![figure01](per base sequence quality.png)
+ ![per_base_sequece](per_base_sequencey.png)
  
    * **Multiple control of quality of the fastaq files**.  Using the MULTIQC function, we evaluated to quality of the assemble of all reads. See the script _`MultiQC.sh`_. After the running of MULTIQC function, we saw that the quality was acceptable so we did not need to clean the data. 
 

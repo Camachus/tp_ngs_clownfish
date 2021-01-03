@@ -27,7 +27,7 @@ The RNA-Senquencing method was carried out with the Illumina technology Signle-E
 ### I. Download the reads for the study
   
   * **Downloading the RNA-seq files**. The script _`RNAseq_data.sh`_ describes the procedure used to get the fastaq files (by using their SSR accessions) from the NCBI database. We created the directory sra_data to store these fastaq files. 
-
+![fastaq](fastaq.png)
 
   * **Control of quality of the fastaq files**. We applied the FASTQC function to the reads. Script _`Control_quality.sh`_  describes the steps we did. We create an HTML file for each read with the quality of sequences. We obtained different statistics to measure and check the quality of fastaq files. One of the most important was **Per base sequence quality**. 
  

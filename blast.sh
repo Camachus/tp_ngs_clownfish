@@ -11,6 +11,6 @@ db=$data/blast_db/db
 makeblastdb -in $data/cds_spartitus/spartitus_coding_format.fa -dbtype nucl -out $db 
 
 #blast fasta against the ref db
-blastn -db $db -query $data/data_transcoder/Trinity.fasta.transdecoder.rename.cds -evalue 1e-5 -outfmt 6 -out $data/out_blast
+blastn -db $db -query $data/data_transcoder/Trinity.fasta.transdecoder.rename.cds -evalue 1e-5 -outfmt 6 -out $data/out_blast/blast
 
 

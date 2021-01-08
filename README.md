@@ -6,7 +6,7 @@ _Actinoterygian_ fishes present different patterns of pigmentation. These patter
 
 _Actinoterygian_ fishes present 8 cell types of pigmentation compared  to mammals, that have only one. Two of these pigmentation cells are iridophore that refers to a reflective tissue and leucophore for white tissue.
 
-Here, authors asked whether the white bars of the coral reef fish _**Amphiprion ocellaris**_, known as the clown fish, are composed of iridophores or with leucophores or maybe both. To answer this question, we used the transcriptomic analysis  through this TP NGS. 
+Here, authors asked whether the white bars of the coral reef fish _**Amphiprion ocellaris**_, known as the clown fish, are composed of iridophores or leucophores or maybe both. To answer this question, we used the transcriptomic analysis  through this TP NGS. 
  
  ![finding-nemo](Pictures/finding-nemo.jpg)
 
@@ -39,7 +39,7 @@ The RNA-Senquencing method was carried out with the Illumina technology Signle-E
 		![Multiqc](Pictures/Multiqc.jpg)
  
  ### II. Data assembly
- **Assembly of the reads**.  To assembly the sequences, we used the trinity function, which is detailed in this web site: https://github.com/trinityrnaseq/trinityrnaseq/wiki/Running-Trinity. Trinity used three modules (Ichworm, Chrysalis and Butterfly) to assemble the fastaq files into linear sequences. The script _`Trinity.sh`_ decribes how reads were assembled into a Fasta file.  Trinity also **groups** isoforms and separate paralogs.
+ **Assembly of the reads**.  To assembly the sequences, we used the trinity function, which is detailed in this web site: https://github.com/trinityrnaseq/trinityrnaseq/wiki/Running-Trinity. Trinity used three modules (Ichworm, Chrysalis and Butterfly) to assemble the fastaq files into linear sequences. The script _`Trinity.sh`_ decribes how reads were assembled into a Fasta file.  Trinity also groups isoforms and separate paralogs.
  	Because the Trinity function could take long time, we used the `nohup` command to run the script. 
  
  
@@ -107,14 +107,14 @@ With used the Trinity identifiers (that we blasted with the reference genome) to
 (Figure from: Vinciane Piveteau)
 
 
-Conclusion
+## Conclusion
 
-We tried to recapitulate the transcriptomic method used in the article to find the genes expressed in the white tissue. Compare to the paper's 10 most differentially expressed genes, we found 7 of the 10 most differentially expressed genes being _saiyan_ and interesting gene responsable for the white pigmentation 
-We also found iridophores marker genes like _saiyan, apoD1a_ and _gpnmb_. This allowed us to confirm the microcospic analysis findings. So the white skin in _A. ocellaris_ presents iridophores. 
+We tried to recapitulate the transcriptomic method used in the article to find the genes expressed in the white tissue. Compared to the paper's 10 most differentially expressed genes, we found 7 of the 10 most differentially expressed genes being _saiyan_ an interesting gene, which is responsable for the white pigmentation. 
+We also found iridophores marker genes like _saiyan, apoD1a_ and _gpnmb_. This allowed us to confirm the microcospic analysis findings reported in the paper. So the white skin of _A. ocellaris_ presents iridophores. 
 
-It is important to mention that the our results are not identical to the article. This could be due because in some scripts we used different functions like `lfcShrink` instead of the authors' function `results`. Futhermore, the script lines may differ or the update software. 
+It is important to mention that our results are not identical to the article. This could be due because in some scripts we used different functions like `lfcShrink` instead of the authors' function `results`. Futhermore, the script lines may differ or the update software. 
 
-Acknowledgments
+## Acknowledgments
 
 I want to thank Corentin Dechaud for his patience during the TP, specially with me. I want to thanks my group (Marthe, Vinciane and Paul), I really enjoyed to work together in the clown fish project. Finally, I thank Professor Marie Semon for her enthusiasm and the good course organization. 
 
